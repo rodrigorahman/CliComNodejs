@@ -1,0 +1,25 @@
+{
+  "name": "comand-line-github-repos",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigorahman/CliComNodejs.git"
+  },
+  "author": "Rodrigo Rahman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigorahman/CliComNodejs/issues"
+  },
+  "homepage": "https://github.com/rodrigorahman/CliComNodejs#readme",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "comand-line-github-repos": "./githubhelper.js",
+    "docker-helper": "./dockerhelp.js"
+  }
+}
